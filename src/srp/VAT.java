@@ -2,11 +2,7 @@ package srp;
 
 public class VAT {
 	
-	private float EHUNEKOA;
-	
-	public VAT() {
-		EHUNEKOA = 18;
-	}
+	private static final float EHUNEKOA=18;
 	
 
 	public float calculate(float amount, String code) {
